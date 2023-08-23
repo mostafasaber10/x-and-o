@@ -1,0 +1,81 @@
+body{
+    background: #B9BAA3;
+}
+.game{
+    text-align: center;
+    width: 300px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 70px;
+}
+
+.title{
+    background-color: #862B0D;
+    padding: 8px 0;
+    margin: 8px 0;
+    cursor: pointer;
+}
+span{
+    color: rgb(0, 0, 0);
+}
+
+.square{
+    float: left;
+    width: 95px;
+    height: 90px;
+    background: #3e4422;
+    margin: 2px;
+    font-size: 70px;
+    font-weight: 850px;
+    
+    
+}
+.square:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.wins-x{
+    color: rgb(8, 8, 129);
+    font-size: 25px;
+    margin: 7px 0;
+    position: relative;
+    right: 300px;
+    bottom: 350px;
+    cursor: pointer;
+}
+
+.wins-o{
+    color: rgb(8, 129, 73);
+    font-size: 25px;
+    margin: 7px 0;
+    position: relative;
+    left: 300px;
+    bottom: 390px;
+    cursor: pointer;
+}
+
+
+.but{
+    color: white;
+    background: #862B0D;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+}
+
+.bot{
+    color: white;
+    background: #862B0D;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: 60px;
+    right: 150px;
+}
